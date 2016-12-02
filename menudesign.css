@@ -1,0 +1,106 @@
+
+.gaia-argoui-sidemenu-parentmenu-portal {
+    background-image: url(menuimage1.png);
+    background-size: 80% 100%;
+}
+
+.gaia-argoui-sidemenu-parentmenu-space {
+    background-image: url(menuimage2.png);
+    background-size: 80% 100%;
+}
+
+.gaia-argoui-sidemenu-parentmenu-item-selected .gaia-argoui-sidemenu-parentmenu-space {
+    background-image: url(menuimage2.png);
+}
+
+.gaia-argoui-sidemenu-parentmenu-app {
+    background-image: url(menuimage3.png);
+    background-size: 80% 100%;
+}
+
+.gaia-argoui-sidemenu-parentmenu-item-selected .gaia-argoui-sidemenu-parentmenu-app {
+    background-image: url(menuimage3.png);
+}
+
+.gaia-argoui-sidemenu-parentmenu-people {
+    background-image: url(menuimage4.png);
+    background-size: 80% 100%;
+}
+
+.gaia-argoui-sidemenu-parentmenu-item-selected .gaia-argoui-sidemenu-parentmenu-people {
+    background-image: url(menuimage4.png);
+}
+
+.gaia-argoui-sidemenu-parentmenu-item-content {
+    background-position: initial;
+    border-bottom: 0px;
+    padding: 0px 0px 0px 166px;
+}
+
+.gaia-argoui-sidemenu-parentmenu-item-selected .gaia-argoui-sidemenu-parentmenu-item-content {
+    background-color: white;
+    color: pink;
+    font-weight: bold;
+}
+
+
+.gaia-argoui-sidemenu.transform {
+    transition: 1s transform ease-in-out;
+    transform: translateX(-204px);
+}
+
+.gaia-argoui-sidemenu-parentmenu {
+	width:247px;
+	margin-left: -55px;
+    height: auto;
+    background-color: white;
+}
+
+
+/*Space menu design*/
+
+.gaia-argoui-sidemenu-contents.transform.visible {
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
+    transition: 2.2s transform ease;
+}
+
+.gaia-argoui-sidemenu-body {
+    height: auto
+}
+
+.gaia-argoui-sidemenu-body-list {
+    width: auto;
+    background-color: #fff;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 5px;
+    position: relative;
+    margin-bottom: 0 0 1.5em;
+}
+
+
+
+
+.gaia-argoui-sidemenu-body-app-item:nth-child(2n+1), .gaia-argoui-sidemenu-body-people-item:nth-child(2n+1), .gaia-argoui-sidemenu-body-space-item:nth-child(2n+1) {
+    background-color: initial;
+}
+
+.gaia-argoui-sidemenu-body-space-item-image{
+	    position: initial;
+        width: initial;
+}
+
+.gaia-argoui-sidemenu-body-header .gaia-argoui-select.ocean-portal-dropdown-menu {
+    text-align: center;
+}
+
+.gaia-argoui-sidemenu-body-header .gaia-argoui-select-arrow {
+    visibility: hidden;
+}
+
